@@ -1,0 +1,173 @@
+body, html	{
+margin:0;
+padding:0;
+background-image: url("i/fon.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: 100%;
+-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+}
+.wrap	{
+padding: 10px;
+margin: 0 auto;
+background: rgba(0, 0, 0, 0.6);
+width: 950px;
+}
+.p1	{
+display:list-item;
+margin-left:20px;
+}
+#t1	{
+width: 850px;
+margin: 10px 5px 5px 40px;
+text-align: center;
+font: 46px sans-serif;
+font-weight: 900;
+color: #ffffff;
+}
+#t2	{
+width: 600px;
+margin: 20px 180px;
+text-align: center;
+font: 25px sans-serif;
+font-weight: 400;
+color: #99cc99;
+}
+#t3{
+color: #858585;
+font-size: 30px;
+text-align: center;
+}
+#t4	{
+text-transform: uppercase;
+margin-bottom: -20px;
+font-weight: 500;
+font-size: 30px;
+}
+#centr	{
+width: 900px;
+height: 500px;
+}
+#levyy_block	{
+width: 250px;
+margin: 10px 50px;
+color: #dd1f00;
+font-size: 60px;
+position:relative;
+float:left;
+clear:right;
+text-shadow: #cad5e2 1px 1px 0;
+}
+#levyy_block img	{
+height: 450px;
+margin-left:-120px;
+margin-bottom: -30px;
+}
+#centralnyy_block	{
+width: 300px;
+margin-left:300px;
+margin-top: -500px;
+position:relative;
+float:left;
+clear:both;
+color: #fff;
+font-size:20px;
+}
+#pravyy_block	{
+width: 300px;
+margin-top: -500px;
+margin-left: 640px;
+position:relative;
+float:left;
+clear:left;
+background-color: #fff;
+border-radius: 15px;
+text-indent:
+}
+
+#application {
+    width: 320px;
+    margin: 0 auto;
+}
+.zagolovok_forma	{
+	color: #858585;
+	font-size: 20px;
+	margin: 20px;
+}
+#applicationName, #applicationTelephone, #applicationSelect {
+    width: 80%;
+    height: 30px;
+    background: #fff;
+    margin: -30px 20px;
+	outline: none;
+	border-color: rgba(.12, 0.56, 1, 0.3);
+	/*border-top-color: #F5FFFA;
+	border-bottom-color: #F5F5F5;*/
+    color: #858585;
+    font-size: 15px;
+}
+input:focus {
+    outline: none;
+}
+
+#applicationName:focus, #applicationTelephone:focus {
+     border-radius: 5px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.applicationButton {
+    margin: 50px 65px;
+    background: #dd1f00;
+    border: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+	transition: .6s;
+}
+    .applicationButton:hover {
+        background: #30ad64;
+		transition: .6s;
+    }
+	
+#nizhniy_block	{
+width: 360px;
+margin-left:300px;
+margin-top: 90px;
+color: #fff;
+font-size:25px;
+text-align: center;
+}
+#footer	{
+color: #fff;
+margin-top: 100px;
+margin-bottom: 15px;
+margin-left:4%;
+padding: 15px;
+width: 90%;
+font-size:12px;
+text-align: center;
+border-bottom-style: solid;
+border-bottom-color: #99cc99;
+border-bottom-width: 2px;
+border-top-style: solid;
+border-top-color: #99cc99;
+border-top-width: 2px;
+}
